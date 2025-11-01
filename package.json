@@ -1,20 +1,16 @@
 {
+  "name": "animeguardianbot",
+  "version": "1.0.0",
+  "description": "Bot de keepalive para servidor Minecraft (Aternos) - AnimeGuardianBot",
+  "main": "playerBot.js",
   "type": "module",
-  "name": "afk-bot",
-  "version": "1.2.0",
-  "description": "Afk bot for minecraft servers.",
-  "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node playerBot.js"
   },
-  "author": "urFate",
-  "license": "MIT",
-"dependencies": {
-  "mineflayer": "latest",
-  "mineflayer-pathfinder": "latest",
-  "axios": "^1.13.1",
-  "express": "^4.18.1"
-}
-
+  "dependencies": {
+    "axios": "^1.13.1",
+    "express": "^4.18.2",
+    "mineflayer": "latest",
+    "mineflayer-pathfinder": "latest"
+  }
 }
