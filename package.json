@@ -10,7 +10,8 @@
   "dependencies": {
     "axios": "^1.13.1",
     "express": "^4.18.2",
-    "mineflayer": "github:PrismarineJS/mineflayer",
+    "mineflayer": "https://github.com/PrismarineJS/mineflayer.git#master",
     "mineflayer-pathfinder": "latest"
   }
 }
+
