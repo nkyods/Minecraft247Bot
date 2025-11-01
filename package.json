@@ -1,7 +1,7 @@
 {
   "name": "animeguardianbot",
   "version": "1.0.0",
-  "description": "Bot de keepalive para servidor Minecraft (Aternos) - AnimeGuardianBot",
+  "description": "Bot de keepalive para servidor Minecraft (Aternos)",
   "main": "playerBot.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
   "dependencies": {
     "axios": "^1.13.1",
     "express": "^4.18.2",
-    "mineflayer": "latest",
+    "mineflayer": "github:PrismarineJS/mineflayer",
     "mineflayer-pathfinder": "latest"
   }
 }
