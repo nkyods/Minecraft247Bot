@@ -13,6 +13,23 @@ function startBot() {
     username: "AnimeGuardianBot", // nome do bot
     version: false, // detecta versão automaticamente
   });
+  
+
+  bot.on('error', err => {
+  console.log(`⚠️ Erro no bot: ${err.message}`);
+  console.log("🔁 Tentando reconectar em 30 segundos...");
+  setTimeout(() => {
+    process.exit(1); // Força o Render a reiniciar o processo automaticamente
+  }, 30000);
+});
+
+bot.on('end', () => {
+  console.log("🔌 Conexão encerrada. Reiniciando em 30 segundos...");
+  setTimeout(() => {
+    process.exit(1);
+  }, 30000);
+});
+
 
   // Quando o bot conectar
   bot.once("spawn", () => {
