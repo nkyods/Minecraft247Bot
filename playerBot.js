@@ -3,6 +3,10 @@
 // Nome: AnimeGuardianBot
 // Feito por Breno & Sofya 💖
 // ==============================
+import { execSync } from "child_process";
+
+try {
+ 
 
 import mineflayer from "mineflayer";
 
